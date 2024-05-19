@@ -81,7 +81,6 @@ function App() {
     return (
         <div className={"ipList"}>
           {Object.entries(ipData).map(([key, value]) => (
-
               <p key={key}>
                 <strong>{key.charAt(0).toUpperCase() + key.slice(1)}:</strong> {value}
               </p>

@@ -4,10 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "WhoIs/node_modules/.bin/vite",
-    "build": "WhoIs/node_modules/.bin/vite build",
-    "lint": "WhoIs/node_modules/.bin/eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "WhoIs/node_modules/.bin/vite preview"
+    "dev": "vite"
   },
   "dependencies": {
     "axios": "^1.6.8",
